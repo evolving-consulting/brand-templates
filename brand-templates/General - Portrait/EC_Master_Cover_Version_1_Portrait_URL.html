@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>EC Cover Version 1 - Portrait Letter</title>
+<style>
+
+@page { size: Letter portrait; margin: 0.70in; }
+html, body { margin:0; padding:0; }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#111111;
+  background:#ffffff;
+  font-size:12pt;
+  line-height:1.45;
+}
+.page {
+  width:100%;
+  min-height:9.10in;
+  position:relative;
+  background:#ffffff;
+}
+.header, .footer {
+  width:100%;
+  border-collapse:collapse;
+  table-layout:fixed;
+}
+.header td, .footer td { padding:0; vertical-align:top; }
+.header-left { width:62%; line-height:0; }
+.header-right { width:38%; text-align:right; line-height:0; }
+.site {
+  font-size:6.5pt;
+  color:#666666;
+  text-transform:uppercase;
+  letter-spacing:.25pt;
+}
+.page-title {
+  font-size:26pt;
+  line-height:1.05;
+  font-weight:normal;
+  margin:.34in 0 .10in 0;
+}
+.page-subtitle {
+  font-size:11pt;
+  color:#555555;
+  margin:0 0 .24in 0;
+  line-height:1.45;
+}
+.eyebrow {
+  font-size:7pt;
+  font-weight:bold;
+  text-transform:uppercase;
+  letter-spacing:.5pt;
+  margin-bottom:.06in;
+}
+.footer {
+  margin-top:.25in;
+  border-top:.75pt solid #9a9a9a;
+}
+.footer td {
+  padding-top:.08in;
+  font-size:6pt;
+  color:#686868;
+  text-transform:uppercase;
+}
+.footer-left { width:50%; text-align:left; }
+.footer-right { width:50%; text-align:right; }
+
+
+.cover-page{width:100%;height:9.10in;position:relative;overflow:hidden}
+.cover-header{width:100%;border-collapse:collapse;table-layout:fixed}
+.cover-header td{padding:0;vertical-align:top}
+.cover-title-block{position:absolute;left:.45in;right:.45in;top:2.30in;text-align:center}
+.cover-account{font-size:16pt;font-weight:bold;margin-bottom:.20in}
+.cover-title{font-size:42pt;line-height:.98;font-weight:bold;letter-spacing:-1pt;margin:0}
+.cover-subtitle{font-size:13pt;color:#333;margin-top:.16in}
+.cover-details{width:92%;margin:.35in auto 0;border-collapse:collapse;table-layout:fixed}
+.cover-details td{width:33.333%;text-align:center;padding:.08in .12in;border-right:.5pt solid #c6c6c6}
+.cover-details td:last-child{border-right:0}
+.detail-label{font-size:7pt;color:#666;font-weight:bold;text-transform:uppercase;letter-spacing:.35pt}
+.detail-value{font-size:10pt;font-weight:bold;margin-top:.04in}
+.cover-meta{position:absolute;left:0;right:0;bottom:.45in;width:100%;border-collapse:collapse;table-layout:fixed}
+.cover-meta td{font-size:7pt;text-transform:uppercase;line-height:1.35}
+.cover-meta-left{width:50%;text-align:left}
+.cover-meta-right{width:50%;text-align:right}
+.cover-footer{position:absolute;left:0;bottom:0;width:100%;border-collapse:collapse;table-layout:fixed;border-top:.75pt solid #9a9a9a}
+.cover-footer td{padding-top:.08in;font-size:6pt;color:#686868;text-transform:uppercase}
+
+</style>
+</head>
+<body>
+
+<div class="cover-page">
+  <table class="cover-header"><tr>
+    <td style="width:58%;line-height:0;"><img src="https://ec-website.mnava.workers.dev/email-signature/logo-lockup.png" alt="EC Logo" style="width:230px;height:auto;" /></td>
+  </tr></table>
+  <div class="cover-title-block">
+    <div class="cover-account">CLIENT OR PROJECT NAME</div>
+    <h1 class="cover-title">DOCUMENT TITLE</h1>
+    <div class="cover-subtitle">Optional subtitle or document description</div>
+    <table class="cover-details"><tr>
+      <td><div class="detail-label">Status</div><div class="detail-value">Optional Value</div></td>
+      <td><div class="detail-label">Document Date</div><div class="detail-value">Month DD, YYYY</div></td>
+      <td><div class="detail-label">Reference</div><div class="detail-value">Optional Reference</div></td>
+    </tr></table>
+  </div>
+  <table class="cover-meta"><tr>
+    <td class="cover-meta-left"><strong>Presented by</strong><br/>Evolving Consulting Delivery Team</td>
+    <td class="cover-meta-right"><strong>Prepared for</strong><br/>Client Contact Name<br/>Client Company</td>
+  </tr></table>
+  <table class="cover-footer"><tr>
+    <td style="width:40%;">EVOLVING-CONSULTING.COM</td>
+    <td style="width:20%;text-align:center;">DOCUMENT TYPE</td>
+    <td style="width:40%;text-align:right;">Hamilton, Ontario, Canada</td>
+  </tr></table>
+</div>
+
+</body>
+</html>

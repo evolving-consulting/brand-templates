@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>EC Thank You Version 2 - Portrait Letter</title>
+<style>
+
+@page { size: Letter portrait; margin: 0.70in; }
+html, body { margin:0; padding:0; }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#111111;
+  background:#ffffff;
+  font-size:12pt;
+  line-height:1.45;
+}
+.page {
+  width:100%;
+  min-height:9.10in;
+  position:relative;
+  background:#ffffff;
+}
+.header, .footer {
+  width:100%;
+  border-collapse:collapse;
+  table-layout:fixed;
+}
+.header td, .footer td { padding:0; vertical-align:top; }
+.header-left { width:62%; line-height:0; }
+.header-right { width:38%; text-align:right; line-height:0; }
+.site {
+  font-size:6.5pt;
+  color:#666666;
+  text-transform:uppercase;
+  letter-spacing:.25pt;
+}
+.page-title {
+  font-size:26pt;
+  line-height:1.05;
+  font-weight:normal;
+  margin:.34in 0 .10in 0;
+}
+.page-subtitle {
+  font-size:11pt;
+  color:#555555;
+  margin:0 0 .24in 0;
+  line-height:1.45;
+}
+.eyebrow {
+  font-size:7pt;
+  font-weight:bold;
+  text-transform:uppercase;
+  letter-spacing:.5pt;
+  margin-bottom:.06in;
+}
+.footer {
+  margin-top:.25in;
+  border-top:.75pt solid #9a9a9a;
+}
+.footer td {
+  padding-top:.08in;
+  font-size:6pt;
+  color:#686868;
+  text-transform:uppercase;
+}
+.footer-left { width:50%; text-align:left; }
+.footer-right { width:50%; text-align:right; }
+
+
+.thank-page{width:100%;height:9.10in;position:relative;overflow:hidden}
+.center-block{position:absolute;left:.45in;right:.45in;top:2.35in;text-align:center}
+.thank-title{font-size:56pt;line-height:.95;font-weight:bold;margin:0}
+.thank-message{width:5.60in;margin:.24in auto 0;font-size:14pt;color:#333;line-height:1.45}
+.contact-table{width:90%;margin:.45in auto 0;border-collapse:collapse;table-layout:fixed}
+.contact-table td{width:33.333%;padding:.10in .10in;text-align:center;vertical-align:top;border-right:.5pt solid #c8c8c8}
+.contact-table td:last-child{border-right:0}
+.contact-label{font-size:7pt;font-weight:bold;text-transform:uppercase;letter-spacing:.4pt;color:#666}
+.contact-value{font-size:9.5pt;font-weight:bold;line-height:1.35;margin-top:.04in}
+
+</style>
+</head>
+<body>
+
+<div class="thank-page">
+  <table class="header"><tr>
+    <td class="header-left"><img src="https://ec-website.mnava.workers.dev/email-signature/logo-lockup.png" alt="EC Logo" style="width:200px;height:auto;" /></td>
+  </tr></table>
+  <div class="center-block">
+    <h1 class="thank-title">THANK YOU</h1>
+    <div class="thank-message">Thank you for your time, collaboration, and continued partnership.</div>
+    <table class="contact-table"><tr>
+      <td><div class="contact-label">Email</div><div class="contact-value">contact@evolving-consulting.com</div></td>
+      <td><div class="contact-label">Website</div><div class="contact-value">evolving-consulting.com</div></td>
+      <td><div class="contact-label">Address</div><div class="contact-value">Hamilton, Ontario, Canada</div></td>
+    </tr></table>
+  </div>
+  <table class="footer" style="position:absolute;bottom:0;"><tr>
+    <td class="footer-left">EVOLVING-CONSULTING.COM</td>
+    <td class="footer-right">EVOLVING CONSULTING</td>
+  </tr></table>
+</div>
+
+</body>
+</html>

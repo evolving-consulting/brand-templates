@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>EC Cover Version 2 - Landscape Letter</title>
+<style>
+
+@page { size: Letter landscape; margin: 0.75in; }
+html, body { margin:0; padding:0; }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#111111;
+  background:#ffffff;
+  font-size:12pt;
+  line-height:1.45;
+}
+.page {
+  width:100%;
+  min-height:6.82in;
+  position:relative;
+  background:#ffffff;
+}
+.header, .footer {
+  width:100%;
+  border-collapse:collapse;
+  table-layout:fixed;
+}
+.header td, .footer td { padding:0; vertical-align:top; }
+.header-left { width:72%; line-height:0; }
+.header-right { width:28%; text-align:right; line-height:0; }
+.header-logo { width:220px; height:auto; }
+.header-corner { width:95px; height:auto; }
+.site {
+  font-size:6.5pt;
+  color:#666666;
+  text-transform:uppercase;
+  letter-spacing:.25pt;
+}
+.page-title {
+  font-size:28pt;
+  line-height:1.05;
+  font-weight:normal;
+  margin:.32in 0 .10in 0;
+}
+.page-subtitle {
+  font-size:11pt;
+  color:#555555;
+  margin:0 0 .24in 0;
+  line-height:1.45;
+}
+.eyebrow {
+  font-size:7pt;
+  font-weight:bold;
+  text-transform:uppercase;
+  letter-spacing:.5pt;
+  margin-bottom:.06in;
+}
+.footer {
+  margin-top:.25in;
+  border-top:.75pt solid #9a9a9a;
+}
+.footer td {
+  padding-top:.08in;
+  font-size:6pt;
+  color:#686868;
+  text-transform:uppercase;
+}
+.footer-left { width:50%; text-align:left; }
+.footer-right { width:50%; text-align:right; }
+
+
+.cover-page{width:100%;height:6.82in;position:relative;overflow:hidden}
+.cover-main{width:100%;border-collapse:collapse;table-layout:fixed;margin-top:.82in}
+.cover-main td{vertical-align:top;padding:0}
+.title-col{width:63%;padding-right:.28in!important}
+.info-col{width:37%;padding-left:.28in!important}
+.cover-eyebrow{font-size:8pt;font-weight:bold;text-transform:uppercase;letter-spacing:.7pt;margin-bottom:.14in}
+.cover-title{font-size:48pt;line-height:.94;font-weight:bold;letter-spacing:-1.2pt;margin:0}
+.cover-subtitle{font-size:15pt;color:#333;margin-top:.18in}
+.cover-description{font-size:11pt;line-height:1.5;margin-top:.30in}
+.info-panel{background:#0a0a0a;color:#fff;padding:.30in;min-height:3.90in}
+.info-label{font-size:7pt;color:#ccc;font-weight:bold;text-transform:uppercase;letter-spacing:.45pt;margin-bottom:.05in}
+.info-value{font-size:11pt;font-weight:bold;line-height:1.35;margin-bottom:.20in}
+.info-rule{border-top:.5pt solid #555;height:1px;margin:.14in 0 .18in}
+.cover-footer{position:absolute;left:0;bottom:0;width:100%;border-collapse:collapse;table-layout:fixed;border-top:.75pt solid #9a9a9a}
+.cover-footer td{padding-top:.08in;font-size:6pt;color:#686868;text-transform:uppercase}
+
+</style>
+</head>
+<body>
+
+<div class="cover-page">
+  <table class="header"><tr>
+    <td class="header-left"><img src="https://ec-website.mnava.workers.dev/email-signature/logo-lockup.png" alt="EC Logo" style="width:290px;height:auto;" /></td>
+  </tr></table>
+  <table class="cover-main"><tr>
+    <td class="title-col">
+      <div class="cover-eyebrow">CLIENT OR PROJECT NAME</div>
+      <h1 class="cover-title">DOCUMENT<br/>TITLE</h1>
+      <div class="cover-subtitle">Optional subtitle or engagement description</div>
+      <div class="cover-description">Optional short introduction describing the purpose of the document, the engagement, or the context for the audience.</div>
+    </td>
+    <td class="info-col">
+      <div class="info-panel">
+        <div class="info-label">Prepared For</div><div class="info-value">Client Contact Name<br/>Client Company</div>
+        <div class="info-rule"></div>
+        <div class="info-label">Prepared By</div><div class="info-value">Evolving Consulting Delivery Team</div>
+        <div class="info-rule"></div>
+        <div class="info-label">Document Date</div><div class="info-value">Month DD, YYYY</div>
+        <div class="info-rule"></div>
+        <div class="info-label">Reference</div><div class="info-value">Optional Reference</div>
+      </div>
+    </td>
+  </tr></table>
+  <table class="cover-footer"><tr>
+    <td style="width:50%;">EVOLVING-CONSULTING.COM</td>
+    <td style="width:50%;text-align:right;">DOCUMENT TYPE</td>
+  </tr></table>
+</div>
+
+</body>
+</html>

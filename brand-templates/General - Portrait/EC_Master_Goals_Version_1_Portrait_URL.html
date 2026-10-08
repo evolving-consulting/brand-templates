@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>EC Goals Version 1 - Portrait Letter</title>
+<style>
+
+@page { size: Letter portrait; margin: 0.70in; }
+html, body { margin:0; padding:0; }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#111111;
+  background:#ffffff;
+  font-size:12pt;
+  line-height:1.45;
+}
+.page {
+  width:100%;
+  min-height:9.10in;
+  position:relative;
+  background:#ffffff;
+}
+.header, .footer {
+  width:100%;
+  border-collapse:collapse;
+  table-layout:fixed;
+}
+.header td, .footer td { padding:0; vertical-align:top; }
+.header-left { width:62%; line-height:0; }
+.header-right { width:38%; text-align:right; line-height:0; }
+.site {
+  font-size:6.5pt;
+  color:#666666;
+  text-transform:uppercase;
+  letter-spacing:.25pt;
+}
+.page-title {
+  font-size:26pt;
+  line-height:1.05;
+  font-weight:normal;
+  margin:.34in 0 .10in 0;
+}
+.page-subtitle {
+  font-size:11pt;
+  color:#555555;
+  margin:0 0 .24in 0;
+  line-height:1.45;
+}
+.eyebrow {
+  font-size:7pt;
+  font-weight:bold;
+  text-transform:uppercase;
+  letter-spacing:.5pt;
+  margin-bottom:.06in;
+}
+.footer {
+  margin-top:.25in;
+  border-top:.75pt solid #9a9a9a;
+}
+.footer td {
+  padding-top:.08in;
+  font-size:6pt;
+  color:#686868;
+  text-transform:uppercase;
+}
+.footer-left { width:50%; text-align:left; }
+.footer-right { width:50%; text-align:right; }
+
+
+.agenda{width:100%;border-collapse:collapse;table-layout:fixed;margin-top:.18in}
+.agenda td{padding:.15in .04in;border-bottom:.5pt solid #d6d6d6;vertical-align:middle}
+.agenda-no{width:.62in;font-size:11pt;font-weight:bold}
+.agenda-text{font-size:14pt}
+
+</style>
+</head>
+<body>
+
+<div class="page">
+<table class="header"><tr>
+  <td class="header-left"><span class="site">EVOLVING-CONSULTING.COM</span></td>
+</tr></table>
+
+<h1 class="page-title">GOALS OF <strong>TODAY</strong></h1>
+<p class="page-subtitle">Meeting agenda and discussion topics</p>
+<table class="agenda">
+<tr><td class="agenda-no">01</td><td class="agenda-text">Introduction and objectives</td></tr>
+<tr><td class="agenda-no">02</td><td class="agenda-text">Business requirements review</td></tr>
+<tr><td class="agenda-no">03</td><td class="agenda-text">Solution walkthrough</td></tr>
+<tr><td class="agenda-no">04</td><td class="agenda-text">Questions and discussion</td></tr>
+<tr><td class="agenda-no">05</td><td class="agenda-text">Next steps</td></tr>
+</table>
+</div>
+
+</body>
+</html>
